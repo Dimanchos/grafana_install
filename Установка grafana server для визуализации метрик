@@ -1,0 +1,27 @@
+1. Выполняем установку:
+
+sudo apt upgrade
+
+sudo apt-get install adduser libfontconfig1 musl dpkg
+
+wget https://dl.grafana.com/oss/release/grafana_10.4.5_amd64.deb
+
+sudo dpkg -i grafana_10.4.5_amd64.deb
+
+2. Запускаем, добавляем в автозагрузку, проверяем работоспособность
+
+systemctl start grafana-server.service
+
+systemctl enable grafana-server.service
+
+systemctl status grafana-server.service
+
+3. Заходим на веб интерфейс grafana
+
+http://ip_grafana:3000/
+
+Дефолтный логин/пароль:
+
+admin/admin
+
+4. Добавляем новую базу данных prometheus в grafana 
