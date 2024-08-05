@@ -25,7 +25,8 @@ http://ip_grafana:3000/
 
 admin/admin
 
-4. Добавляем новую базу данных prometheus в grafana 
+4. Добавляем новую базу данных prometheus в grafana
+
 ![image](https://github.com/user-attachments/assets/5f3c303b-1236-4747-83c6-c41162df7745)
 ![image](https://github.com/user-attachments/assets/60daf77f-c116-4686-9e14-a41552dee351)
 ![image](https://github.com/user-attachments/assets/77bc10b3-948a-41f7-804b-397a5a90556a)
